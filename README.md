@@ -12,3 +12,6 @@ using react + redux to create the app. this app is created by [create-react-app]
 
 ### how to run dev
 `yarn run start`
+
+### how to build production
+`yarn run build`
