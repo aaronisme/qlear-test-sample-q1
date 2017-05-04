@@ -5,8 +5,8 @@ import Cell from '../Cell/Cell';
 
 describe('Row', ()=> {
   const cells= [
-    {top:true, right:true, bottom:false, left:false, id:'00'},
-    {top:true, right:true, bottom:true, left:true, id:'01'},
+    {top:true, right:true, bottom:false, left:false},
+    {top:true, right:true, bottom:true, left:true},
   ];
   
   const rowId = 0;

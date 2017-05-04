@@ -19,9 +19,9 @@ class Row extends Component {
       <div className="row">
         {cells.map((cell, index) => {
           if (rowId === rat.row && index === rat.column) {
-            return <Cell key={cell.id} borders={cell} rat/>
+            return <Cell key={`${rowId}${index}`} borders={cell} rat/>
           }
-          return <Cell key={cell.id} borders={cell}/>
+          return <Cell key={`${rowId}${index}`} borders={cell}/>
         })}
       </div>
     )
